@@ -7,10 +7,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Features\ProgrammingLanguages\Models\" />
+		<Folder Include="Features\ProgrammingLanguages\Commands\DeletePrgrammingLanguage\" />
 		<Folder Include="Features\ProgrammingLanguages\Constans\" />
-		<Folder Include="Features\ProgrammingLanguages\Rules\" />
-		<Folder Include="Features\ProgrammingLanguages\Queries\" />
 	</ItemGroup>
 
 
