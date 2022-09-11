@@ -7,8 +7,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Folder Include="Features\ProgrammingTechnologies\" />
+		<Folder Include="Features\UserOperationClaims\" />
+		<Folder Include="Features\OperationClaims\" />
 		<Folder Include="Features\ProgrammingLanguages\Commands\DeletePrgrammingLanguage\" />
 		<Folder Include="Features\ProgrammingLanguages\Constans\" />
+		<Folder Include="Features\Users\Commands\" />
+		<Folder Include="Features\Users\Dtos\" />
+		<Folder Include="Features\Users\Models\" />
+		<Folder Include="Features\Users\Constans\" />
+		<Folder Include="Features\Users\Profiles\" />
+		<Folder Include="Features\Users\Rules\" />
+		<Folder Include="Features\Users\Queries\" />
 	</ItemGroup>
 
 
