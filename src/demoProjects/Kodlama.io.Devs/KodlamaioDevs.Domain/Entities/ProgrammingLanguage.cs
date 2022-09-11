@@ -5,14 +5,15 @@ namespace KodlamaioDevs.Domain.Entities
     public class ProgrammingLanguage : Entity
     {
         public string Name { get; set; }
+        public virtual ICollection<ProgrammingTechnology> ProgrammingTechnologies { get; set; }
         public ProgrammingLanguage()
         {
 
         }
         public ProgrammingLanguage(int id,string name):this()
         {
-            this.Id = id;
-            this.Name = name;
+            Id = id;
+            Name = name;
         }
     }
 }
