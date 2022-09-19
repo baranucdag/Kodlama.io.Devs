@@ -5,11 +5,6 @@ using Core.Security.JWT;
 using KodlamaioDevs.Application.Features.Auths.Rules;
 using KodlamaioDevs.Application.Services.Repositories;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KodlamaioDevs.Application.Features.Auths.Commands.RegisterCommand
 {

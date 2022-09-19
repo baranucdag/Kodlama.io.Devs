@@ -10,6 +10,7 @@ namespace KodlamaioDevs.Persistence.Contexts
         protected IConfiguration Configuration { get; set; }
         public DbSet<ProgrammingLanguage> ProgrammingLanguages { get; set; }
         public DbSet<ProgrammingTechnology> ProgrammingTechnologies { get; set; }
+        public DbSet<GithubProfile> GithubProfiles { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<OperationClaim> OperationClaims { get; set; }
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }

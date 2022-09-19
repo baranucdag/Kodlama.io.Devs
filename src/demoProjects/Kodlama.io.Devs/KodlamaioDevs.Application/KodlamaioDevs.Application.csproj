@@ -7,7 +7,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Features\ProgrammingTechnologies\" />
+		<Folder Include="Features\GithubProfiles\Commands\" />
+		<Folder Include="Features\GithubProfiles\Rules\" />
 		<Folder Include="Features\UserOperationClaims\" />
 		<Folder Include="Features\OperationClaims\" />
 		<Folder Include="Features\ProgrammingLanguages\Commands\DeletePrgrammingLanguage\" />

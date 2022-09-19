@@ -31,7 +31,6 @@ namespace KodlamaioDevs.Application.Features.ProgrammingLanguages.Commands.Creat
                 CreatedProgrammingLanguageDto createdProgrammingLanguageDto = _mapper.Map<CreatedProgrammingLanguageDto>(createdProgrammingLanguage);
 
                 return createdProgrammingLanguageDto;
-
             }
 
         }
