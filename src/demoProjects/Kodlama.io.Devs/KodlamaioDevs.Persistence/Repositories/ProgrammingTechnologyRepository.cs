@@ -5,7 +5,7 @@ using KodlamaioDevs.Persistence.Contexts;
 
 namespace KodlamaioDevs.Persistence.Repositories
 {
-    public class ProgrammingTechnologyRepository : EfRepositoryBase<ProgrammingTechnology, BaseDbContext>, IProgrammingTechnologRepository
+    public class ProgrammingTechnologyRepository : EfRepositoryBase<ProgrammingTechnology, BaseDbContext>, IProgrammingTechnologyRepository
     {
         public ProgrammingTechnologyRepository(BaseDbContext context) : base(context)
         {

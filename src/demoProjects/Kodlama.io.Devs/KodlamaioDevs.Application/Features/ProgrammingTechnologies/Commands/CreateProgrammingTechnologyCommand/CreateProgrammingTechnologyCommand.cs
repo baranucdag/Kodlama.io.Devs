@@ -16,11 +16,11 @@ namespace KodlamaioDevs.Application.Features.ProgrammingTechnologies.Commands.Cr
 
         public class CreateProgrammingTechnologyCommandHandler : IRequestHandler<CreateProgrammingTechnologyCommand, CreatedProgrammingTechnologyDto>
         {
-            private readonly IProgrammingTechnologRepository _programmingTechnologyRepository;
+            private readonly IProgrammingTechnologyRepository _programmingTechnologyRepository;
             private readonly IMapper _mapper;
             private readonly ProgrammingTechnologyBusinessRules programmingTechnologyBusinessRules;
 
-            public CreateProgrammingTechnologyCommandHandler(IProgrammingTechnologRepository programmingTechnologyRepository, IMapper mapper, ProgrammingTechnologyBusinessRules programmingTechnologyBusinessRules)
+            public CreateProgrammingTechnologyCommandHandler(IProgrammingTechnologyRepository programmingTechnologyRepository, IMapper mapper, ProgrammingTechnologyBusinessRules programmingTechnologyBusinessRules)
             {
                 _programmingTechnologyRepository = programmingTechnologyRepository;
                 _mapper = mapper;

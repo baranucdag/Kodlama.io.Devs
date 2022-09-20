@@ -4,8 +4,8 @@ namespace KodlamaioDevs.Application.Features.ProgrammingTechnologies.Rules
 {
     public class ProgrammingTechnologyBusinessRules
     {
-        private readonly IProgrammingTechnologRepository _programmingTechnologRepository;
-        public ProgrammingTechnologyBusinessRules(IProgrammingTechnologRepository programmingTechnologRepository)
+        private readonly IProgrammingTechnologyRepository _programmingTechnologRepository;
+        public ProgrammingTechnologyBusinessRules(IProgrammingTechnologyRepository programmingTechnologRepository)
         {
             _programmingTechnologRepository = programmingTechnologRepository;
         }

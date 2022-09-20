@@ -16,9 +16,9 @@ namespace KodlamaioDevs.Application.Features.ProgrammingTechnologies.Queries.Get
         public class GetListProgrammingTechnologyQueryHandler : IRequestHandler<GetListProgrammingTechnologyQuery, ProgrammingTechnologyListModel>
         {
             private readonly IMapper _mapper;
-            private readonly IProgrammingTechnologRepository _programmingTechnologyRepository;
+            private readonly IProgrammingTechnologyRepository _programmingTechnologyRepository;
 
-            public GetListProgrammingTechnologyQueryHandler(IMapper mapper, IProgrammingTechnologRepository programmingTechnologyRepository)
+            public GetListProgrammingTechnologyQueryHandler(IMapper mapper, IProgrammingTechnologyRepository programmingTechnologyRepository)
             {
                 _mapper = mapper;
                 _programmingTechnologyRepository = programmingTechnologyRepository;

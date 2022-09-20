@@ -3,6 +3,7 @@ using Core.Application.Pipelines.Validation;
 using FluentValidation;
 using KodlamaioDevs.Application.Features.Auths.Rules;
 using KodlamaioDevs.Application.Features.ProgrammingLanguages.Rules;
+using KodlamaioDevs.Application.Features.ProgrammingTechnologies.Rules;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -18,6 +19,7 @@ namespace KodlamaioDevs.Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddScoped<ProgrammingLanguageBusinessRules>();
+            services.AddScoped<ProgrammingTechnologyBusinessRules>();
             services.AddScoped<AuthBusinessRules>();
 
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());

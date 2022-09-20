@@ -9,7 +9,7 @@ namespace KodlamaioDevs.WebAPI.Controllers
     [ApiController]
     public class ProgrammingTechnologiesController : BaseController
     {
-        [HttpGet("GetList")]
+        [HttpGet]
         public async Task<IActionResult> GetList([FromQuery] PageRequest pageRequest)
         {
             GetListProgrammingTechnologyQuery query = new GetListProgrammingTechnologyQuery { PageRequest = pageRequest };
