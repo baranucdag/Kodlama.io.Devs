@@ -5,6 +5,6 @@ namespace KodlamaioDevs.Application.Features.ProgrammingTechnologies.Modes
 {
     public class ProgrammingTechnologyListModel : BasePageableModel
     {
-        public IList<ProgrammingTechnologyListDto> Items;
+        public IList<ProgrammingTechnologyListDto> Items { get; set; }
     }
 }

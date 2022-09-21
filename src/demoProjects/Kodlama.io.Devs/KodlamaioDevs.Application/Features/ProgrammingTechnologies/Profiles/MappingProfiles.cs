@@ -14,7 +14,9 @@ namespace KodlamaioDevs.Application.Features.ProgrammingTechnologies.Profiles
             CreateMap<CreateProgrammingLanguageCommand,ProgrammingTechnology>().ReverseMap();
             CreateMap<ProgrammingTechnology, CreatedProgrammingTechnologyDto>().ReverseMap();
             CreateMap<IPaginate<ProgrammingTechnology>, ProgrammingTechnologyListModel>().ReverseMap();
-            CreateMap<ProgrammingTechnology, ProgrammingTechnologyListDto>().ForMember(c=>c.ProgrammingTechnologyName,opt=>opt.MapFrom(c=>c.ProgrammingLanguage.Name)).ReverseMap();
+            CreateMap<ProgrammingTechnology, ProgrammingTechnologyListDto>()
+                .ForMember(c=>c.ProgrammingTechnologyName,opt=>opt
+                .MapFrom(c=>c.ProgrammingLanguage.Name)).ReverseMap();
         }
     }
 }
